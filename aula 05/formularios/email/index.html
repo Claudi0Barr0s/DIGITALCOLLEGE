@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario do Google</h1>
+    <hr>
+
+    <form method="post" action="https://api-send-email-m9xz.onrender.com/eubarros05@gmail.com">
+        <div>
+            <label for="name">Nome</label>
+            <input type="text" name="name" id="name">
+        </div>
+
+        <div>
+            <label for="name">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <fieldset>
+                <legend> Assunto</legend> 
+
+                <input type="radio" name="subject" id="assunto 1" value="Teste de API"
+                <label for="assunto1">Assunto 1</label>
+
+                <input type="radio" name="subject" id="assunto 2">
+                <label for="assunto2">Assunto 2</label>
+
+                <input type="radio" name="subject" id="assunto 3">
+                <label for="assunto3">Assunto 3</label>
+            </fieldset>
+        </div>
+        <br>
+        <div>
+            <label for="message">Mensagem</label> <br>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Insira sua mensagem..."></textarea>
+        </div>
+        <br>
+        <div>
+            <button type="reset">Apagar Mensagen</button>
+            <button>Enviar Mensagem</button>
+        </div>
+    </form>
+</body>
+</html>
