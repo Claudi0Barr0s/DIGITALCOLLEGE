@@ -1,0 +1,67 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body .primeira-secao > div{
+    font-family: playwrite MX;
+    text-align: justify;
+}
+
+.container {
+    background-color: yellowgreen;
+    border: 5px;
+    border-style: solid;
+    padding: 5px;
+
+}
+
+h1 {
+    color: white;
+    background-color: black;
+    text-align: center;  
+}
+.primeira-secao {
+    color: red;
+}
+
+.segunda-secao {
+    color: blue;
+}
+
+.primeira-secao > p {
+    color: darkcyan;
+    text-align: justify;
+}
+
+.primeira-secao > div > p {
+    color: darksalmon;
+}
+
+.primeira-secao > div > p {
+    color: black;
+    background-color: pink; 
+    ;
+}
+
+.segunda-secao {
+    color: white;
+    background-color: blue;
+    margin: 20px;
+    padding: 20px;
+    border-width: 5px;
+    border-style: solid;
+    border-color:  black;
+}
+
+.segunda-secao p {
+    font-size: 20px;
+    text-align: justify;
+    text-decoration: underline;
+}
