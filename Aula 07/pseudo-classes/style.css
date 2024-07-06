@@ -1,0 +1,73 @@
+div:hover {
+    background-color: darkgreen;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+button:active {
+    background-color: darkcyan;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: darkred
+}
+
+a:hover {
+    color: darkgoldenrod;
+    text-decoration: underline;
+}
+
+input:disabled {
+    background-color: red;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black
+
+}
+
+
+tbody tr:nth-child(even) {
+    background-color: darkgray;
+}
+
+tfoot {
+    background-color: darkgoldenrod;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
