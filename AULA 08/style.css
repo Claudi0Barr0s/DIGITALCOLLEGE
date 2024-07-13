@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    padding: 20px;
+    
+}
+
+
+ {
+background-image: url(://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Brad_Pitt_Fury_2014.jpg/640px-Brad_Pitt_Fury_2014.jpg);
+min-width: 300px;
+min-height: 300px;
+border-radius: 100%;
+background-size: cover;
+background-position: center;
+
+}
+body{
+    background-image: url(https://wallpapers.com/images/featured/fundo-de-gradiente-azul-07xqmk2r9n9vmxli.webp);
+}   
+
